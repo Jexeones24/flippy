@@ -10,7 +10,6 @@ export default class App extends Component {
   }
 
   handleClick = (index) => {
-    console.log('clicked')
     let clicked = this.state.clicked
     clicked[index] = !clicked[index]
     this.setState({ clicked })
